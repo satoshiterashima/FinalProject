@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Sulphur+Point|Teko&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body{
+   /* font-family: 'Ubuntu', sans-serif;*/
+    color: white;
+    background-color: black;
+    padding: 100px;
+ 
+}
+
+.font1{
+  font-family :'Teko',sans-serif;
+  color: white;
+}
+
+.font2{
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+
+.top-img {
+  position: relative;
+  }
+
+.top-img h1 {
+  position: absolute;
+  color: white;
+  font-size: 10em;
+  top: 30%;
+  left: 75%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:10px;
+  background-color: rgba(2,2,2,0.5);
+  }
+
+  .top-img h2 {
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    top: 51%;
+    left: 68%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0px;
+
+    }
+
+img {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+    }
+
+
+
+
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project {
+    width: 200px;
+    height: 200px;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    margin: 1px;
+    text-align: center;
+  }
+  
+  .overlay {
+    background-color: rgba(5, 0, 5, 0.5);
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    word-wrap: break-word;
+  }
+  
+  .overlay:hover {
+    opacity: 1;
+  }
+  
+  .project h3 {
+    margin: 0;
+    transform: translateY(-50px);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .overlay:hover h3 {
+    transform: translateY(0);
+  }
+  
+  .projext p {
+    margin: 0;
+  }
+  
+  .project-1 {
+    background-image: url("https://www.pakutaso.com/shared/img/thumb/rtethjdyrsetgshf_TP_V.jpg");
+  }
+  
+  .project-2 {
+    background-image: url("https://www.pakutaso.com/shared/img/thumb/KAZ7842_gyftdrhfyg_TP_V.jpg");
+  }
+  
+  .project-3 {
+    background-image: url("https://www.pakutaso.com/shared/img/thumb/KAZ_hugyftdrftyg_TP_V.jpg");
+  }
+  
+  .project-4 {
+    background-image: url("https://www.pakutaso.com/shared/img/thumb/20141129-PB290002-2_TP_V.jpg");
+  }
+  
+  .project-5 {
+    background-image: url("https://meateatingmilitaryman.com/wp-content/uploads/2018/06/air-fryer-fried-chicken-480x375.jpg");
+  }
+  
+  .project-6 {
+    background-image: url("https://cdn.asagei.com/syokuraku/uploads/2018/09/20180929-karaage-fes07.jpg");
+  }
+  
+  a {
+    color: white;
+    transition: transform 0.3s ease-out;
+  }
+  
+  a:hover {
+    background-position: -100% 0;
+    background-color: rgba(0, 191, 255, 0.5);
+    transform: translateY(0);
+  }
+  
+  .project-grid-colum {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .experience {
+    width: 400px;
+    height: 225px;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    margin: 8px;
+    text-align: center;
+  }
+  
+  .performance1 {
+    background-image: url("https://cdn.glitch.com/088360a2-191e-4434-a6f4-3405e4692e58%2FIMG_8986.JPG?v=1569986426604");
+  }
+  
+  .performance2 {
+    background-image: url("https://cdn.glitch.com/088360a2-191e-4434-a6f4-3405e4692e58%2F20190802-DSC_9787.jpg?v=1569985832779");
+  }
+  
+  .performance3 {
+    background-image: url("https://cdn.glitch.com/088360a2-191e-4434-a6f4-3405e4692e58%2FIMG_2115.JPG?v=1569986536853");
+  }
+  
+  .work1 {
+    background-image: url("http://img.youtube.com/vi/c-q96uH5tE8/maxresdefault.jpg");
+  }
+  
+  .work2 {
+    background-color: black;
+  }
+  
+  .work3 {
+    background-image: url("http://img.youtube.com/vi/dygx6npF8kU/maxresdefault.jpg");
+  }
+  
+  .work4 {
+    background-color: black;
+  }
+
+  .first_images img {
+    text-align: left;
+    width: 30%;
+    float: left;
+  }
+  
+  .images img {
+    text-align: left;
+    width: 30%;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  .float {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .snsbtniti{
+    display: inline;
+    text-align: center;
+  }
+
+  .snsbtniti li{
+    display: inline-block;
+  }
+
+  /* ボタン全体 */
+.flowbtn17{
+  border-radius:50%;
+  position:relative;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  font-size:30px;
+  text-decoration:none;
+  transition:.5s;
+  background-color:#444;
+  color:#fff;
+  }
+  /* ボタンマウスホバー時のテキスト指定 */
+  .flowbtn17:hover{
+  text-decoration:none;
+  }
+  /* アイコンをど真ん中に */
+  .flowbtn17 i{
+  position:absolute;
+  top:50%;
+  left:50%;
+  -ms-transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  }
+  /* Twitterマウスホバー時 */
+  .flowbtn17.fl_tw2:hover{
+  background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+  }
+  /* Instagramマウスホバー時 */
+  .flowbtn17.insta_btn2:hover{
+  background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;		
+  }
+  /* Facebookマウスホバー時 */
+  .flowbtn17.fl_fb2:hover{
+  background:-webkit-linear-gradient(top, #5c80c6 0%, #34528c 74%);	
+  background:linear-gradient(to bottom, #5c80c6 0%, #34528c 74%);
+  }
+  
+  /* ulタグの内側余白を０にする */
+  ul.snsbtniti2{
+  padding:0!important;
+  }
+  /* ボタン全体の位置 */
+  .snsbtniti2{
+  display:flex;
+  flex-flow:row wrap;
+  }
+  /* ボタン同士の余白 */
+  .snsbtniti2 li{
+  flex:0 0 48%;
+  text-align:center !important;
+  }
